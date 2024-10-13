@@ -20,7 +20,6 @@ impl PositiveNonzeroInteger {
             0 => Err(CreationError::Zero),
             x => Ok(PositiveNonzeroInteger(x as u64)),
         }
-        Ok(PositiveNonzeroInteger(value as u64))
     }
 }
 
